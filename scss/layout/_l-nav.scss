@@ -1,0 +1,11 @@
+.l-nav {
+  display: inline-flex;
+  padding-top: 6px;
+  float: right;
+  padding-right: 152px;
+  &-list {
+    text-decoration: none;
+    color: #818181;
+    margin-right: 10px;
+  }
+}

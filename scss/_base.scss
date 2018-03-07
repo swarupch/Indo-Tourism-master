@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-areas: "header header header" "banner banner banner" "gallery gallery gallery" "services services services" "footer footer footer";
+  grid-template-rows: 67px 534px 1fr 568px 31px;
+  grid-template-columns: 20% 1fr 15%; 
+  //grid-row-gap: 10px;
+  //grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ececec;
+  overflow-x: hidden;
+}
+
+header,
+footer,
+article,
+nav,
+div {
+  padding: 1.2em;
+}
+
+@media all and (max-width: 575px) {
+  body {
+    grid-template-areas: "header" "banner" "gallery" "services" "footer";
+    grid-template-rows: 82px 376px 243px 446px 60px;
+    grid-template-columns: 1fr;
+  }
+}

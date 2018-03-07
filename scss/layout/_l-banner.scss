@@ -1,0 +1,15 @@
+.l-banner {
+  z-index: 1;
+  grid-area: banner;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.l-banner-title {
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 52px;
+}

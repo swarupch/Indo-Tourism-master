@@ -1,0 +1,55 @@
+.l-services-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  span {
+    display: block;
+  }
+  .fa {
+    color: #55a1ff;
+    text-align: center;
+    display: block;
+  }
+}
+
+.l-services-list-item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  background-color: white;
+  &-text {
+    font-size: 20px;
+    color: #7e7c7c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.fa-globe {
+  font-size: 140px;
+}
+
+.fa-shopping-bag {
+  font-size: 99px;
+  margin-top: 6px;
+}
+
+.fa-camera-retro {
+  font-size: 99px;
+  margin-top: 14px;
+}
+
+.fa-search {
+  font-size: 99px;
+  margin-top: 14px;
+}
+
+.l-services-title {
+  text-align: center;
+  color: #818181;
+  font-size: 26px;
+}

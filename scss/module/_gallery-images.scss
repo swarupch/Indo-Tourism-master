@@ -1,0 +1,10 @@
+
+.l-gallery-images {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  span {
+    display: block;
+  }
+}
